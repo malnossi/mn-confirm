@@ -1,0 +1,40 @@
+{
+  "name": "mn-confirm",
+  "private": false,
+  "version": "0.0.2",
+  "description": "Vue3 simple confirm dialog",
+  "license": "MIT",
+  "author": {
+    "name": "Mohamed AL NOSSIRAT",
+    "email": "mohamed.w.nossirat@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malnossi/mn-confirm"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/mn-confirm.umd.js",
+  "module": "./dist/mn-confirm.js",
+  "exports": {
+    ".": {
+      "import": "./dist/mn-confirm.js",
+      "require": "./dist/mn-confirm.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.0"
+  }
+}
